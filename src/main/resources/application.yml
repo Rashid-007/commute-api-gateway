@@ -27,3 +27,6 @@ eureka:
     fetchRegistry: true
     serviceUrl:
         defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  sensitive-headers: Cookie, Set-Cookie # Pass the 'Authorization'-Header to downstream requests to do authorization.
