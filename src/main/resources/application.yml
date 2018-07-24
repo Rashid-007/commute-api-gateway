@@ -9,6 +9,8 @@
 # Reference for command spring boot properties can be found at
 # http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
+server:
+  port: 9001
 
 spring:
   application:
